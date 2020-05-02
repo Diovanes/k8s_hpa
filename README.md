@@ -23,5 +23,6 @@
     wget -q -O- http://go-hpa.default.svc.cluster.local;
     while true; do wget -q -O- http://go-hpa.default.svc.cluster.local; done;
 
+
 Imagem:  
 https://hub.docker.com/repository/docker/diovanes/go-hpa
