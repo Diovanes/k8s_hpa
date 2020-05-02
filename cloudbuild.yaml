@@ -1,0 +1,7 @@
+steps:
+  - name: "gcr.io/cloud-builders/go"
+    args: ["install", "go-hpa"]
+    env: ["GOPATH=."]
+  - name: "gcr.io/cloud-builders/go"
+    args: ["test", "go-hpa"]
+    env: ["GOPATH=."]
